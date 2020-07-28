@@ -1,0 +1,9 @@
+a <-1
+b <-1
+c <--1
+print(c)
+d <-(-b + sqrt(b^2 - 4*a*c))/(2*a)
+e <-(-b - sqrt(b^2 - 4*a*c))/(2*a)
+print("o resultado da equcao:")
+print(d) 
+print(e)
