@@ -1,0 +1,34 @@
+#question1:
+#To find the solutions to an equation of the format  𝑎𝑥2+𝑏𝑥+𝑐 , use the quadratic equation:  𝑥=−𝑏±𝑏2−4𝑎𝑐√2𝑎 .
+#What are the two solutions to  2𝑥2−𝑥−4=0  ? Use the quadratic equation.
+a <-2
+b <--1
+c <--4
+print(c)
+d <-(-b + sqrt(b^2 - 4*a*c))/(2*a)
+e <-(-b - sqrt(b^2 - 4*a*c))/(2*a)
+print("o resultado da equcao:")
+print(d) 
+print(e)
+
+#QUESTAO2:
+#Use R to compute log base 4 of 1024.
+log(1024, 4)
+
+#QUESTAO3:
+library(dslabs)
+data(movielens)
+str(movielens)
+# determining how many entries are in a vector
+pop <- movielens$title
+length(pop)
+#determinar quais sao as varaveis:
+names(movielens)
+#que tipo tipo de variavel e "title"?
+class(movielens$title)
+#tipo de variavel de "genres":
+class(movielens$genres)
+#QUESTAO4
+ 
+#determine the number of levels of this factor
+nlevels(movielens$genres)
